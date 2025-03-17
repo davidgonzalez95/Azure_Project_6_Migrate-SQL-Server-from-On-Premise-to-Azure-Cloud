@@ -69,18 +69,18 @@ The project is structured around the key phases of the migration process:
 2. Create a new server, specifying the server name, region, and PostgreSQL version.
 3. Configure the compute and storage resources based on workload requirements.
 
-<img src="https://github.com/davidgonzalez95/Azure_Project_6_Migrate-SQL-Server-from-On-Premise-to-Azure-Cloud/blob/main/Pictures/azure_migrate_database__postgresql_step_01.png" alt="image" width="500" height="auto">
+<img src="https://github.com/davidgonzalez95/Azure_Project_6_Migrate-SQL-Server-from-On-Premise-to-Azure-Cloud/blob/main/Pictures/azure_migrate_database__postgresql_step_01.png" alt="image" width="700" height="auto">
 
-<img src="https://github.com/davidgonzalez95/Azure_Project_6_Migrate-SQL-Server-from-On-Premise-to-Azure-Cloud/blob/main/Pictures/azure_migrate_database__postgresql_step_02.png" alt="image" width="500" height="auto">
+<img src="https://github.com/davidgonzalez95/Azure_Project_6_Migrate-SQL-Server-from-On-Premise-to-Azure-Cloud/blob/main/Pictures/azure_migrate_database__postgresql_step_02.png" alt="image" width="700" height="auto">
 
 ### Step 2: Configuring Firewall Rules
 1. Navigate to the **Firewall rules** section of the Azure PostgreSQL server.
 2. Add the necessary IP addresses to allow access to the server.
 3. Save the firewall rules.
 
-<img src="https://github.com/davidgonzalez95/Azure_Project_6_Migrate-SQL-Server-from-On-Premise-to-Azure-Cloud/blob/main/Pictures/azure_migrate_database__postgresql_step_03.png" alt="image" width="500" height="auto">
+<img src="https://github.com/davidgonzalez95/Azure_Project_6_Migrate-SQL-Server-from-On-Premise-to-Azure-Cloud/blob/main/Pictures/azure_migrate_database__postgresql_step_03.png" alt="image" width="700" height="auto">
 
-(Can generate error when you try to conect on PostgreSQL
+(Can generate error when you try to conect on PostgreSQL)
 
 <img src="https://github.com/davidgonzalez95/Azure_Project_6_Migrate-SQL-Server-from-On-Premise-to-Azure-Cloud/blob/main/Pictures/azure_migrate_database__postgresql_step_04-error.png" alt="image" width="500" height="auto">
 
@@ -94,9 +94,9 @@ The project is structured around the key phases of the migration process:
 
 #### Azure Data Studio:
 
-<img src="https://github.com/davidgonzalez95/Azure_Project_6_Migrate-SQL-Server-from-On-Premise-to-Azure-Cloud/blob/main/Pictures/azure_migrate_database__postgresql_step_05.png" alt="image" width="500" height="auto">
+<img src="https://github.com/davidgonzalez95/Azure_Project_6_Migrate-SQL-Server-from-On-Premise-to-Azure-Cloud/blob/main/Pictures/azure_migrate_database__postgresql_step_05.png" alt="image" width="700" height="auto">
 
-<img src="https://github.com/davidgonzalez95/Azure_Project_6_Migrate-SQL-Server-from-On-Premise-to-Azure-Cloud/blob/main/Pictures/azure_migrate_database__postgresql_step_06.png" alt="image" width="500" height="auto">
+<img src="https://github.com/davidgonzalez95/Azure_Project_6_Migrate-SQL-Server-from-On-Premise-to-Azure-Cloud/blob/main/Pictures/azure_migrate_database__postgresql_step_06.png" alt="image" width="700" height="auto">
 
 ### Step 4: Backing Up the On-Premise Database
 1. Use the **pgAdmin** to back up the on-premise PostgreSQL database.
@@ -108,7 +108,7 @@ The project is structured around the key phases of the migration process:
 1. Use the **pgAdmin** to restore the backup file to the Azure PostgreSQL server.
 2. Verify the restoration process to ensure data integrity.
 
-<img src="https://github.com/davidgonzalez95/Azure_Project_6_Migrate-SQL-Server-from-On-Premise-to-Azure-Cloud/blob/main/Pictures/azure_migrate_database__postgresql_step_08.png" alt="image" width="500" height="auto">
+<img src="https://github.com/davidgonzalez95/Azure_Project_6_Migrate-SQL-Server-from-On-Premise-to-Azure-Cloud/blob/main/Pictures/azure_migrate_database__postgresql_step_08.png" alt="image" width="700" height="auto">
 
 ### Step 6: Verifying the Migration
 1. Connect to the migrated database in Azure using **pgAdmin** or **Azure Data Studio**. (We check in this case only on Azure Data Studio)
@@ -117,9 +117,9 @@ The project is structured around the key phases of the migration process:
 
 #### Azure Data Studio:
 
-<img src="https://github.com/davidgonzalez95/Azure_Project_6_Migrate-SQL-Server-from-On-Premise-to-Azure-Cloud/blob/main/Pictures/azure_migrate_database__postgresql_step_09.png" alt="image" width="500" height="auto">
+<img src="https://github.com/davidgonzalez95/Azure_Project_6_Migrate-SQL-Server-from-On-Premise-to-Azure-Cloud/blob/main/Pictures/azure_migrate_database__postgresql_step_09.png" alt="image" width="700" height="auto">
 
-<img src="https://github.com/davidgonzalez95/Azure_Project_6_Migrate-SQL-Server-from-On-Premise-to-Azure-Cloud/blob/main/Pictures/azure_migrate_database__postgresql_step_10.png" alt="image" width="500" height="auto">
+<img src="https://github.com/davidgonzalez95/Azure_Project_6_Migrate-SQL-Server-from-On-Premise-to-Azure-Cloud/blob/main/Pictures/azure_migrate_database__postgresql_step_10.png" alt="image" width="700" height="auto">
 
 ---
 
